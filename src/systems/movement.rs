@@ -12,6 +12,7 @@ pub fn movement(
     commands: &mut CommandBuffer,
 ) {
     if map.can_enter_tile(want_move.destination) {
+        // TODO: make entities not to stack
         commands.add_component(want_move.entity, want_move.destination);
 
         if let Ok(entry) = ecs.entry_ref(want_move.entity) {
