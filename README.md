@@ -11,7 +11,7 @@ Currently the game is build on top of [**legion**](https://github.com/amethyst/l
 #### **Aim:**
 
 ![This is the amulet](readme_imgs/1.png)  
-Find the amulet of YALA that was lost in the acient dungeion.
+Find the amulet of YALA that was lost in the acient dungeon.
 
 #### **Cotrols:**
 
